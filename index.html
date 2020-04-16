@@ -71,75 +71,54 @@ border:1px red solid;
 <p>I am a student at IIIT Kota, I am doing my B.Tech(Bachelor of Technology) <br>in Computer Science and Engineering.</p>
  
   
-            <style>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
 
-                .menudropdown1{
-                width:80%;
-                height:100px;
-                margin:0px auto;
-                
-                }
-                
-                .menudropdown1 ul{
-                 padding:0px;
-                }
-                
-                .menudropdown1 ul li{
-                 float:left;
-                 background-color:white;
-                 color:black;
-                 width:200px;
-                 height:50px;
-                 line-height:50px;
-                 font-size:25px;
-                 text-align:center;
-                 list-style:none;
-                 opacity:0.6;
-                }
-                
-                .menudropdown1 ul li ul{
-                 display:none;
-                }
-                
-                .menudropdown1 ul li:hover > ul{
-                 display:block;
-                }
-                
-                .menudropdown1 ul li:hover{
-                 background-color:#32CD32;
-                 opacity:0.9;
-                }
-                
-                .menudropdown1 ul li ul li{
-                 position:relative;
-                }
-                
-                .menudropdown1 ul li ul li ul{
-                 position:absolute;
-                 left:200px;
-                 top:0px;
-                }
-                
-                </style>
-                </head>
-                <body>
-                <div class="menudropdown1">
-                    <ul>
-                        <li>mayank
-                   <ul>
-                   <li> <a href="https://www.facebook.com/">Facebook</a>
-                   
-                   <ul>
-                       <li><a href="https://www.instagram.com/">Instagram</a>
-                        <ul>
-                   <li><a href="https://mail.google.com/mail/u/0/">Gmail</a>
-                   <ul>
-                <li><a href="https://twitter.com/login?lang=en">Twitter</a>
-                    <ul>
-                        <li><a href="https://github.com/">Github</a>     
-                                
-                                           
-                                            </div>
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="https://www.instagram.com/" id="about">Instagram</a>
+  <a href="https://m.facebook.com/home.php" id="blog">Facebook</a>
+  <a href="https://twitter.com/login" id="projects">Twitter</a>
+  <a href="https://github.com/" id="contact">Github</a>
+</div>
+        
  
 </body>
   </html>
