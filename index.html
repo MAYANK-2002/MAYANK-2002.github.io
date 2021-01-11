@@ -1,40 +1,44 @@
 <html>
 <head><title>about me</title>
- 
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
 <style>
-      body{
-            background-image:url('https://cdn3.vectorstock.com/i/1000x1000/34/72/dark-black-studio-room-background-with-lighting-vector-15623472.jpg');
-            background-size:cover;
-background-color:rgb(92, 104, 92);} 
+      
+        body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/679/1016/936/abstract-sky-wallpaper-preview.jpg");
+    background-size:cover;
+} 
 </style>
    <style>
-      img {
-  border: 1px solid #ddd;
-  border-radius: 80%;
-  padding: 5px;
-  width: 200px;
-}
-
-img:hover {
+      .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+   img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-
-  </style>
+ </style>
  <style>
   h1{
-   font-size:50px;
-color:aquamarine;  
+    align-items: center;
+   font-size:40px;
+color:rgb(0, 8, 6);  
+font-style: italic ;
   }
-  p{
+  h2{
    font-size:30px;
    font-style:italic;
-   color:yellow;
+   color:rgb(19, 5, 14);
    align:center;
   }
-  p1{
-   font-size:50px;
-  }
  </style>
+ <style>
+p{
+  font-size:30px;
+}
+   </style>
  <style>
 .nav a{
 font-size:20px;
@@ -62,6 +66,20 @@ border:1px red solid;
 }
 </style>
 <style>
+  .button {
+  background-color: #af4c99;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  </style>
+<style>
     table tr td {
           bgcolor="white";
         padding: 30px;
@@ -75,57 +93,57 @@ border:1px red solid;
   }
  </style>
  <style>
-#mySidenav a {
+ .social_network{
+  width:100px;
+  height: auto;
   position: absolute;
-  left: -100px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 5px 5px 0;
+  right:0;
+  top:40%;
 }
-  #shadow{
-font size:30px;
-   text-shadow:5px 5px 5px pink;
-  }
+.fa_icons{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom,#615cfd 0%,#d465ef 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-#mySidenav a:hover {
-  left:0;
 }
-
-#about {
-  top: 320px;
-  background-color: #4CAF50;
+.fa_icons:nth-child(even){
+  margin: 20px 0;
 }
-
-#blog {
-  top: 380px;
-  background-color: #2196F3;
-}
-
-#projects {
-  top: 440px;
-  background-color: #f44336;
-}
-
-#contact {
-  top: 500px;
-  background-color: #555
-}
+.fa_icons:hover{
+  background: linear-gradient(to bottom,#d465ef 0%,#615cfd 100%);
+} 
 </style>
-</head>
- <center>
-  <body>
-  <div id="mySidenav" class="sidenav">
-  <a href="https://www.instagram.com/" target="_blank" id="about">Instagram</a>
-  <a href="https://m.facebook.com/home.php" target="_blank" id="blog">Facebook</a>
-  <a href="https://twitter.com/login" target="_blank" id="projects">Twitter</a>
-  <a href="https://github.com/" target="_blank" id="contact">Github</a>
+
+
+<div class="social_network">
+    <div class ="fa_icons">
+        <a href="https://www.facebook.com/" target="_blank">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+
+        </a>
+    </div>
+    <div class ="fa_icons">
+        <a href="https://www.youtube.com/" target="_blank">
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+
+        </a>
+    </div>
+    <div class ="fa_icons">
+        <a href="https://www.instagram.com/i_mayankmeemrot/" target="_blank">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class ="fa_icons">
+        <a href="https://twitter.com/?lang=en" target="_blank">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+    </div>
 </div>
-        
- 
+ <center>
   <div class="nav">
     <a href="index.html">about me</a>
     <a href="course.html">courses</a>
@@ -133,12 +151,22 @@ font size:30px;
     <a href="qualification.html">Education</a>
     <a href="ABOUT HTML.html">about html</a>
    </div></center>
-  <h1 id="shadow"><ins><center>I am Mayank Meemrot</center></ins></h1>
- 
- <p> I  am a student at<p1 id= "shadow"> mnit jaipur</p1>, I am doing my B.Tech(Bachelor of Technology) <br>in Computer Science and Engineering.<p>
- 
    <a target="_blank" href="my-photo.jpg">
-  <img src="my-photo.jpg" height="200px" width="200px" align="right">
+    <img src="my-photo.jpg" style="width:250px;border: solid 3px  ; border-radius: 50%;" class="center">
 </a>
+    <h1 align=center>Mayank Meemrot</h1>
+   <div class="center" >
+     <h2 align=center>Studying B-tech</h2>
+    <h2 align=center>Branch: &nbsp Computer Science Engineering</h2>
+    <h2 align=center>Email ID: Mayankmeemrot@gmail.com</h2>
+    <h2 align=center>Contact No:7891772640</h2>
+    <h2 align=center>Address: Nihalpura bandikui distic-dausa 303315 ,rajasthan</h2>
+    <h2 align=center>Passionate Web Developer</h2>
+    <h2 align=center>Enthusiastic Programmer</h2>
+    <h2 align=center>Github username: &nbsp Mayank-2002 </h2>
+
+    </div>
+   
+<p align=center ><a href = "mailto:mayankmeemort@gmail.com" class="button" target="_blank" >Contact</a></p>
 </body>
   </html>
